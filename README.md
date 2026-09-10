@@ -26,7 +26,7 @@ Para apoiar a tomada de decisão estratégica e a alocação eficiente de verbas
 ---
 ## 📂 Base de Dados da ANCINE
 Disponibilizada no [Portal Brasileiro de Dados Abertos](https://dados.gov.br/dados/conjuntos-dados/lancamentos-comerciais-por-distribuidoras), a base de dados da Agência Nacional do Cinema ([ANCINE](https://www.gov.br/ancine/pt-br)) utilizada reúne informações de lançamentos comerciais de obras audiovisuais no Brasil. 
-- **Arquivo Original:** [`lancamentos-comerciais-por-distribuidoras.csv`](https://xxx)
+- **Arquivo Original:** [`lancamentos-comerciais-por-distribuidoras.csv`](https://github.com/felipeoliveira-feol/desafio_power_bi_bd_ancine/blob/main/data/raw/lancamentos-comerciais-por-distribuidoras.csv)
 - **Data de Coleta/Atualização:** 17/07/2026
 - **Fonte de Validação Externa:** [Portal de Consulta de Obras Não Publicitárias da ANCINE](https://sad2.ancine.gov.br/obrasnaopublicitarias/consultarObraViaPortal/consultarObraViaPortal.seam)
 
@@ -39,7 +39,7 @@ Para oferecer clareza analítica a produtores e distribuidoras no planejamento d
 ### 🛠️ Etapa 1: Saneamento, Tratamento e Validação (SQL/SQLite)
 > Bases de dados abertas frequentemente apresentam inconsistências, duplicidades, valores vazios, ausência de padronização e falhas de indexação. 
 
-Para garantir a consistência e a confiabilidade das informações antes da carga no Power BI, a base de dados foi refinada ([mais detalhes aqui](https://xxx)). 
+Para garantir a consistência e a confiabilidade das informações antes da carga no Power BI, a base de dados foi refinada ([mais detalhes aqui](https://github.com/felipeoliveira-feol/desafio_power_bi_bd_ancine/blob/main/src/README.md)). 
 
 Ao todo, **3,38% dos registros foram removidos** (243 de 7.188 linhas) e **13 registros foram modificados** (1 preenchimento de valor vazio e 12 substituições/correções de dados). Duas colunas foram removidas e uma coluna foi adicionada e preenchida.
 
@@ -74,7 +74,7 @@ A estrutura analítica no Power BI foi desenvolvida de forma modular, permitindo
 A partir da página de **Índice**, é possível acessar diretamente os três módulos principais do relatório:
 
 * **Acesse o Dashboard Interativo Online:** [Link para o Power BI Web](https://app.powerbi.com/view?r=eyJrIjoiZjlhYjg3ZWEtMjIwMy00ZjBiLWIwMGUtNWNlNzIzMWJiOTc1IiwidCI6ImMzN2IzN2EzLWU5ZTItNDJmOS1iYzY3LTRiOWI3MzhlMWRmMCJ9&pageName=1fd9ec708e06c2e10d10).
-* **Teste o Arquivo do Dashboard ([.pbix](https://xxx))** 
+* **Teste o Arquivo do Dashboard ([.pbix](https://github.com/felipeoliveira-feol/desafio_power_bi_bd_ancine/blob/main/src/reports/proj-bi-bd-ancine-v1.pbix))** 
 
 
 ---
