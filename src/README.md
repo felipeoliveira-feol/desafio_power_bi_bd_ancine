@@ -145,7 +145,7 @@ SET ORIGEM_OBRA = CASE
 
 ---
 ## 📄 Base de Dados Tratada
-- **Arquivo Tratado:** [`lancamentos-comerciais-por-distribuidoras-v1.csv`](https://xxx)
+- **Arquivo Tratado:** [`lancamentos-comerciais-por-distribuidoras-v1.csv`]([https://xxx](https://github.com/felipeoliveira-feol/desafio_power_bi_bd_ancine/blob/main/data/processed/lancamentos-comerciais-por-distribuidoras-v1.csv))
 
  ### 📌 Descrição dos Atributos da Base de Dados (Autoral)
 
