@@ -1,13 +1,13 @@
 # 🎬 Análise de Lançamentos Comerciais no Mercado Audiovisuais Brasileiro 
 
-> **Diagnóstico da distribuição e desempenho comercial de obras audiovisual com dados da ANCINE (Power BI + SQLite)**
+> **Diagnóstico da distribuição e desempenho comercial de obras audiovisuais com dados da ANCINE (Power BI + SQLite)**
 
 
 ---
 ## 🎯 Contexto e Motivação do Projeto
 O mercado de audiovisual no Brasil movimenta valores expressivos anualmente. No entanto, distribuidoras e produtoras de médio e pequeno porte enfrentam um cenário de alta concentração, no qual um pequeno grupo de *blockbusters* domina salas e receita. 
 
-Para apoiar a tomada de decisão estratégica e a alocação eficiente de verbas de produção e marketing, este projeto oferece um diagnóstico quantitativo detalhado sobre a dinâmica de distribuição e a concorrência histórica no setor, transformando dados brutos em inteligência competitiva.
+Para apoiar decisões de investimento em produção e marketing no setor audiovisual, este projeto analisa a dinâmica de distribuição e a concorrência histórica no mercado brasileiro, transformando dados públicos da ANCINE em inteligência competitiva.
 
 ### ❓ Perguntas de Negócio Avaliadas
 ⚖️ **Análise Comparativa (Nacional vs. Estrangeiro)**
@@ -34,7 +34,7 @@ Disponibilizada no [Portal Brasileiro de Dados Abertos](https://dados.gov.br/dad
 ## 📝 Descrição e Etapas do Projeto
 Este projeto de análise de dados abrangendo desde a coleta e tratamento dos dados abertos da ANCINE até a construção de painéis visuais interativos, bem como a interpretação e insights extraídos a partir das informações obtidas. 
 
-Para oferecer clareza analítica a produtores e distribuidoras no planejamento de lançamentos, o projeto foi dividido em **3 etapas**:
+A metodologia do projeto foi estruturada em **3 etapas**:
 
 ### 🛠️ Etapa 1: Saneamento, Tratamento e Validação (SQL/SQLite)
 > Bases de dados abertas frequentemente apresentam inconsistências, duplicidades, valores vazios, ausência de padronização e falhas de indexação. 
