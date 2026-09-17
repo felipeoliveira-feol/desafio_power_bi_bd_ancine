@@ -145,7 +145,7 @@ SET ORIGEM_OBRA = CASE
 
 ---
 ## 📄 Base de Dados Tratada
-- **Arquivo Tratado:** [`lancamentos-comerciais-por-distribuidoras-v1.csv`]([https://xxx](https://github.com/felipeoliveira-feol/desafio_power_bi_bd_ancine/blob/main/data/processed/lancamentos-comerciais-por-distribuidoras-v1.csv))
+- **Arquivo Tratado:** [`lancamentos-comerciais-por-distribuidoras-v1.csv`](https://github.com/felipeoliveira-feol/desafio_power_bi_bd_ancine/blob/main/data/processed/lancamentos-comerciais-por-distribuidoras-v1.csv)
 
  ### 📌 Descrição dos Atributos da Base de Dados (Autoral)
 
@@ -176,3 +176,5 @@ SET ORIGEM_OBRA = CASE
 | Estrangeira | R$ 40,00 | R$ 6.317.066,18 | R$ 368.258,60 | R$ 444.469.144,86 | R$ 20.750.318,43 | 328,48% |
 | Nacional | R$ 10,00 | R$ 1.659.415,45 | R$ 20.415,30 | R$ 169.400.632,11 | R$ 8.860.157,33 | 533,93% |
 | Geral | R$ 10,00 | R$ 4.833.548,85 | R$ 161.833,91 | R$ 444.469.144,86 | R$ 17.976.235,47 | 371,91% |
+
+> 💡 **Medida de Tedência Central:** Os coefientes de variação encontrados indicam alta dispersão e baixa homogeneidade dos dados em relação a média. Desse modo, deve-se considerar como valor central em torno do qual os dados estão distribuídos o valor da mediana ao invés da média, pois ela não sofre influência de valores extremos.
